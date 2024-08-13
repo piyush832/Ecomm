@@ -9,6 +9,7 @@ namespace API.Controllers
     [Route("api/[Controller]")]
     public class ProductsController : ControllerBase
     {
+        //Private Variable
         private readonly StoreContext context;
 
         //Constructor
