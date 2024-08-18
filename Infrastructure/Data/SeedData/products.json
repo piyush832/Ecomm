@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "Angular Spreedstre Board 2000",
+        "Description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Price": 200,
+        "PictureUrl": "images/products/sb-ang1.png",
+        "ProductTypeId": 1,
+        "ProductBrandId": 1
+    },
+    {
+        "Name": "Green Angular Board 3000",
+        "Description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Price": 150,
+        "PictureUrl": "images/products/sb-ang2.png",
+        "ProductTypeId": 1,
+        "ProductBrandId": 1
+    },
+    {
+        "Name": "Core Board Speed Rush 3",
+        "Description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Price": 130,
+        "PictureUrl": "images/products/sb-ang3.png",
+        "ProductTypeId": 1,
+        "ProductBrandId": 2
+    },
+    {
+        "Name": "Core Spreedstre Board 1000",
+        "Description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Price": 180,
+        "PictureUrl": "images/products/sb-ang4.png",
+        "ProductTypeId": 1,
+        "ProductBrandId": 2
+    }
+]
