@@ -18,6 +18,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 
 });
 builder.Services.AddScoped<IProductRepository, ProductsRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>)); // Register Generic Services
 
 var app = builder.Build();
 
