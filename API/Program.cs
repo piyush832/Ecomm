@@ -19,6 +19,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 });
 builder.Services.AddScoped<IProductRepository, ProductsRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>)); // Register Generic Services
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); // Register Auto Mapper
 
 var app = builder.Build();
 
@@ -30,6 +31,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles(); //For static images 
 
 app.UseAuthorization();
 
